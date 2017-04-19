@@ -1,0 +1,60 @@
+.mainWindow {
+	-fx-border-color: #2f7e82;
+	-fx-border-style: solid;
+	-fx-border-width: 4px;
+}
+
+ /*Edit The control itself*/
+ .combo-box{
+	-fx-background-color:#2f7e82; 
+ }
+
+/*Edit Normal Cell color */
+ .combo-box .list-cell{
+	-fx-background-color:#2f7e82;
+}
+
+/*Edit Cell Color Only when cursor hover cell */
+.combo-box .list-cell:hover{
+	-fx-background-color:#14894b;
+}
+
+/*Edit Cell Color Only when selected */
+.combo-box .list-cell:selected{
+-fx-background-color:#2f7e82; 
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#2f7e82 0%, #2f7e82 0%, #218d91 50%, #3a9cad 99%);
+    -fx-text-fill: white;
+}
+
+.list-cell:even { /* <=== changed to even */
+    -fx-background-color: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #00B1C9;
+    -fx-text-fill: white;
+}
+
+.titled-pane > .title 
+{
+	-fx-background-color: #2f7e82;
+}
+
+
+.chatBox {
+	-fx-background-color: white;
+	-fx-color: #2f7e82;
+	-fx-font-family: "Arial Black";
+	-fx-border-style: solid;
+ 	-fx-border-color: #2f7e82;
+ 	-fx-border-width: 5px;
+ }
+ 
+ .listView {
+ 	-fx-border-style: solid;
+ 	-fx-border-color: #2f7e82;
+ 	-fx-border-width: 5px;
+ }
